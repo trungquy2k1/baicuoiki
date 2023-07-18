@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     fontSize: 28,
     color: '#000',
-    marginVertical: 20
+    marginVertical: 20,
   },
   image: {
     width: '100%',
@@ -38,7 +38,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     color: '#000',
     fontWeight: '800',
-
     width: '30%',
     height: 50,
     paddingTop: 8,
@@ -47,7 +46,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     color: '#000',
     fontWeight: '800',
-
     width: 40,
     height: 50,
     paddingTop: 8,
@@ -60,31 +58,29 @@ const styles = StyleSheet.create({
     width: 50,
     backgroundColor: 'blue',
   },
-  giaban:{
-    flexDirection:'row',
+  giaban: {
+    flexDirection: 'row',
     justifyContent: 'center',
-    alignItems:'center',
-    width:'100%',
-    height:50,
-    marginTop:20
+    alignItems: 'center',
+    width: '100%',
+    height: 50,
+    marginTop: 20,
   },
-  txtgia:{
-    width:'40%',
-    
-    fontSize: 20,
-    color:'#000',
-    backgroundColor:'#fff',
-    textAlign:'center',
-    fontWeight:'700', 
-    
+  txtgia: {
+    width: '40%',
 
+    fontSize: 20,
+    color: '#000',
+    backgroundColor: '#fff',
+    textAlign: 'center',
+    fontWeight: '700',
   },
-  btngia:{
-    width:'60%',
-    height:'100%',
-    alignItems:'center',
-    justifyContent:'center',
-    backgroundColor:'green',
+  btngia: {
+    width: '60%',
+    height: '100%',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'green',
     borderWidth: 1,
     borderColor: 'blue',
     borderRadius: 10,

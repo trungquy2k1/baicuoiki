@@ -69,7 +69,7 @@ export function Dathang() {
         <View style={styles.giaban}>
           <Text style={styles.txtgia}>{tongGia} vnd</Text>
           <TouchableOpacity style={styles.btngia}>
-            <Text style={{fontSize:30, color:'#fff', }}>Đặt hàng</Text>
+            <Text style={{fontSize: 30, color: '#fff'}}>Đặt hàng</Text>
           </TouchableOpacity>
         </View>
       </View>

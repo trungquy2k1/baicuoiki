@@ -7,4 +7,6 @@
 
 import {Chitietsp} from './Screen/Chitietsp';
 import {Dathang} from './Screen/DathangTsx';
-export default Dathang;
+import HomeScreen from './Screen/HomeScreen/HomeScreen';
+import { Category } from './Screen/Category';
+export default Category;
