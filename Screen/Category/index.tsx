@@ -42,7 +42,7 @@ export function Category() {
     </View>
   );
   return (
-    <View>
+    <View style={styles.container}>
       <Text
         style={{
           fontSize: 30,

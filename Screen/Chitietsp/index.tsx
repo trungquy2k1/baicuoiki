@@ -1,10 +1,11 @@
 import React from 'react';
 import styles from './styles';
 import {Image, ScrollView, Text, TouchableOpacity, View} from 'react-native';
-
+import Header from '../../component/Header';
 export function Chitietsp() {
   return (
     <View style={styles.chitietsp}>
+      <Header navigation={navigation}/>
       <View>
         <Image source={require('./chitietSp/anh1.jpg')} style={styles.img} />
       </View>

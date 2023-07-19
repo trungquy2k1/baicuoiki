@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, FlatList, View} from 'react-native';
+import {StyleSheet, FlatList, View, TouchableOpacity} from 'react-native';
 import Item, {ItemData} from './Item';
 //import MenuImage from '../menubutton/menubutton';
 const data: ItemData[] = [
@@ -14,9 +14,14 @@ const data: ItemData[] = [
 ];
 
 const HomeScreen = () => {
+ 
   const renderItem = ({item}: {item: ItemData}) => (
-    <Item id={item.id} image={item.image} content={item.content} />
+    <TouchableOpacity>
+      <Item id={item.id} image={item.image} content={item.content} />
+    </TouchableOpacity>
   );
+  
+
 
   return (
     <View style={styles.container}>
